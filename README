@@ -1,0 +1,34 @@
+LSD
+===
+
+Java editor for Delwink SSF files.
+
+Build
+-----
+
+This program depends on Delwink's jssf library. A compiled jar for it should be
+present in the `lib` folder before building manually.
+
+The NetBeans IDE is used in developing this program, which generates `ant`
+build scripts by default. You can either load the project in NetBeans yourself,
+or you can build with `ant` like so:
+
+    $ ant clean jar
+
+The environment variable `JAVA_HOME` needs to point to a valid JDK for the
+command-line build to work.
+
+Hacking
+-------
+
+LSD uses the [Sun coding style][1] for Java with a soft limit of 79 columns in
+the source code.
+
+License
+-------
+
+LSD is libre software: you are free to use, copy, modify, and redistribute this
+software under the terms of version 3 of the GNU Affero General Public
+License. See [COPYING](COPYING) for details.
+
+[1]: http://www.oracle.com/technetwork/java/codeconventions-150003.pdf
